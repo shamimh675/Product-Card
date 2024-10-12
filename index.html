@@ -3,15 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
     <title>Frontend Mentor | Product preview card component</title>
     <!-- Google Fonts Start -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,14 +12,6 @@
       rel="stylesheet"
     />
     <!-- Google Fonts End -->
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -46,7 +29,10 @@
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
           <p class="product-price">$149.99 <span>$169.99</span></p>
-          <a class="add-to-cart-btn" href="#"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+          <div class="add-to-cart">
+            <img src="images/icon-cart.svg" alt="icon-cart">
+            <a class="add-to-cart-btn" href="#">Add to Cart</a>
+          </div>
         </div>
       </div>
     </main>
